@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "kirmizialan",
+	"version": "1.0.0",
+	"name": "Kirmizi Alan",
+	"description": "Kirmizi Alan Mod",
+	"authors": ["yntm"],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yntm.kirmizialan.Kirmizialan"
+		],
+		"client": [
+			"net.yntm.kirmizialan.KirmizialanClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "1.21.11"
+	}
+}
